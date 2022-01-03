@@ -13,6 +13,7 @@ Its main purpose is to gather queries metadata and statistics as one event per l
 
 ```
 mvn clean package dependency:copy-dependencies -DincludeScope=runtime
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 ```
 
 ## Deploy
